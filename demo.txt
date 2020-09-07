@@ -1,3 +1,6 @@
+hello
+hi
+pallavi
 Sort the rows in order and find the rank for each row. Determine what is the "middle" rank. For example, if there are 9 rows, the middle rank would be 5. Obtain the value for the middle-ranked row.
 
 You will find that Lines 2-6 are the same as how we find the rank of each row. Line 7 finds the "middle" rank. DIV is the way to find the quotient in MySQL, the exact way to obtain the quotient may be different with other databases. Finally, Line 1 obtains the value for the middle-ranked row.
