@@ -1,0 +1,1 @@
+Sort the rows in order and find the rank for each row. Determine what is the "middle" rank. For example, if there are 9 rows, the middle rank would be 5. Obtain the value for the middle-ranked row.
