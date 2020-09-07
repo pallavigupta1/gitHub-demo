@@ -1,0 +1,18 @@
+SQL > SQL JOIN > Left Outer Join
+In an left outer join, all rows from the first table mentioned in the SQL query is selected, regardless whether there is a matching row on the second table mentioned in the SQL query. Let's assume that we have the following two tables,
+
+Table Store_Information
+Store_Name	Sales	Txn_Date
+Los Angeles	1500	Jan-05-1999
+San Diego	250	Jan-07-1999
+Los Angeles	300	Jan-08-1999
+Boston	700	Jan-08-1999
+Table Geography
+
+Region_Name	Store_Name
+East	Boston
+East	New York
+West	Los Angeles
+West	San Diego
+We want to find out sales by store, and we want to see the results for all stores regardless whether there is a sale in the Store_Information table. To do this, we can use the following SQL statement using LEFT OUTER JOIN:
+
